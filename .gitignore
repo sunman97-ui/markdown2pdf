@@ -1,0 +1,18 @@
+# Python standard ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project specific ignores
+# We want to ignore the generated PDFs and your private CV data
+output/
+input/*.md
