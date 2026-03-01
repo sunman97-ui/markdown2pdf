@@ -24,7 +24,23 @@ Because this tool relies on professional typesetting engines, you must install t
 
 1. Clone or download this repository.
 2. Open your terminal in the project directory.
-3. Install the required Python packages using the included requirements file:
+3. Set up a virtual environment (PowerShell):
+
+```powershell
+
+   python -m venv venv
+
+```
+
+4. Activate the Python virtual environment:
+
+```powershell
+
+   .\venv\Scripts\Activate.ps1
+
+```
+
+5. Install the required Python packages using the included requirements file:
 
 ```bash
 
